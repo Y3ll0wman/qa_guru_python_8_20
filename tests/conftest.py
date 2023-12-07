@@ -18,7 +18,7 @@ def browser_chrome(request):
     config.window_width = 1920
     config.window_height = 1080
     config.reports_folder = './.reports'
-    config.base_url = 'https://demowebshop.tricentis.com/'
+    config.base_url = 'https://demowebshop.tricentis.com'
     config.timeout = 5
     options = webdriver.ChromeOptions()
     options.browser_version = '118.0'
